@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "purpose": "适配「订阅与 JS 源」类应用（只识别 苹果CMS type0/1、T4、标准DRPY）",
+    "note": "JS源已改为标准DRPY格式(api=引擎, ext=规则); 移除直播(该类应用会跳过)",
+    "generated": "2026-11-18"
+  },
+  "sites": [
+    {
+      "key": "haohua",
+      "name": "豪华",
+      "type": 1,
+      "api": "https://www.haohuazy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hongniu",
+      "name": "红牛",
+      "type": 1,
+      "api": "https://www.hongniuzy3.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yinghua",
+      "name": "樱花",
+      "type": 1,
+      "api": "https://api.apiyhzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "drpy_jianpian",
+      "name": "荐片(DRPY)",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/%E8%8D%90%E7%89%87.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "drpy_nangua",
+      "name": "南瓜影视(DRPY)",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/%E5%8D%97%E7%93%9C%E5%BD%B1%E8%A7%86.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "drpy_douban",
+      "name": "豆瓣(DRPY)",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js/drpy.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "drpy_jrkan",
+      "name": "JRKAN(DRPY)",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/2hacc/TVBox/main/drpy/jrk.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }
+  ]
+}
