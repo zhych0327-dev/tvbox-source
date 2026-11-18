@@ -45,7 +45,9 @@ Write-Host "Generate a Classic PAT first (one time):"
 Write-Host "  https://github.com/settings/tokens"
 Write-Host "  Generate new token (classic)"
 Write-Host "  Note: anything, Expiration: 90 days"
-Write-Host "  Check the whole 'repo' scope group"
+Write-Host "  Check BOTH scopes:"
+Write-Host "    - 'repo' (whole group)      -> push the files"
+Write-Host "    - 'workflow'                -> push .github/workflows/*.yml"
 Write-Host "  Copy the ghp_... string"
 Write-Host ""
 
@@ -81,7 +83,8 @@ git push -u origin main
 if ($LASTEXITCODE -ne 0) {
     Write-Host ""
     Write-Host "Push FAILED. Common reasons:"
-    Write-Host "  - token missing the 'repo' scope"
+    Write-Host "  - token missing 'repo' scope"
+    Write-Host "  - token missing 'workflow' scope (needed for .github/workflows/*.yml)"
     Write-Host "  - repo name/owner mismatch"
     Write-Host "  - remote already has commits (you created an empty repo, so unlikely)"
     exit 1
