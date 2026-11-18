@@ -1,0 +1,22 @@
+# ============================================================
+# 上游源地址列表 —— 你要维护的唯一入口
+#
+# 每行一个上游源地址（TVBox 兼容配置 JSON / 轻量源 / JSONC 的 URL）。
+# 以 # 开头的行为注释，空行会被忽略。
+# 自动更新脚本会逐个拉取、合并 sites/lives/rules/flags/parses，
+# 按规范化 key 去重后写回 config/tvbox.json。
+# ============================================================
+
+# 结构干净的自动生成源（本站配置的主要来源）
+https://raw.githubusercontent.com/jiusanzhou/tvbox/main/tvbox.json
+
+# 经典长维护源：XYQTVBox（站点丰富，含 // 注释，脚本已兼容 JSONC）
+https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/XYQTVBox/XYQTVBox.json
+
+# 经典长维护源：XYQOnlineRule（站点 + 解析 + 直播 + 规则）
+https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+
+# 懒猫/肥猫系 TVSpider（解析 + 直播 + 规则）
+https://raw.githubusercontent.com/jadehh/TVSpider/main/json/TVBox.json
+
+# ---- 想加自己的源，就往下面贴 raw 直链 ----
