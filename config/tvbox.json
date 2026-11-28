@@ -195,7 +195,7 @@
       "key": "aiyifan_api",
       "name": "🌏 爱壹帆 (海外)",
       "type": 3,
-      "api": "https://zoe.im/tvbox/sites/aiyifan/spider.js?v=f5a26a1a&t=1795789745306",
+      "api": "https://zoe.im/tvbox/sites/aiyifan/spider.js?v=f5a26a1a&t=1795873481754",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -221,7 +221,7 @@
       "key": "ddys",
       "name": "🎞 低端影视",
       "type": 3,
-      "api": "https://zoe.im/tvbox/sites/ddys/spider.js?v=6e848abf&t=1795789745306",
+      "api": "https://zoe.im/tvbox/sites/ddys/spider.js?v=6e848abf&t=1795873481754",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -1286,16 +1286,6 @@
       }
     },
     {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
       "name": "聚合",
       "type": 3,
       "url": "Demo"
@@ -1375,6 +1365,16 @@
       "name": "线路10",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
     },
     {
       "name": "-咸鱼-",
@@ -1460,7 +1460,7 @@
       }
     }
   ],
-  "last_updated": "2026-11-28T00:48:54.846649+00:00",
+  "last_updated": "2026-11-28T14:42:26.006014+00:00",
   "upstream_count": 4,
   "source_count": 144
 }
